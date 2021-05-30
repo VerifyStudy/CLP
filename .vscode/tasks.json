@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"type": "shell",
+			"command":"make",
+			"args": [""]
+		},
+		{
+			"label": "clean",
+			"type": "shell",
+			"command": "make",
+			"args": ["clean"]
+		},
+		{
+			"label": "debug",
+			"type": "shell",
+			"command": "make",
+			"args": [""]
+		},
+		{
+			"label": "build-all",
+			"dependsOn": [
+				"clean",
+				"build-debug"
+			]
+		}
+	]
+}

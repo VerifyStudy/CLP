@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include/c++/7",
+                "/usr/include/x86_64-linux-gnu/c++/7",
+                "/home/ubuntu/llvm-project/llvm/include"
+                /*"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+                "/usr/include/c++/7/backward",
+                "/usr/local/include",
+                "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include"
+                "/usr/include/c++/9",
+                "/usr/include/x86_64-linux-gnu/c++/9",
+                "/usr/lib/llvm-10/include"*/
+            ],
+            "defines": [],
+            "compilerPath": "/home/ubuntu/llvm-project/build/bin/clang",/*"/usr/bin/clang",*/
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64",
+            "compileCommands": "${workspaceFolder}/compile_commands.json"
+        }
+    ],
+    "version": 4
+}

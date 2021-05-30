@@ -1,0 +1,22 @@
+[
+    {
+        "arguments": [
+            "g++",
+            "-c",
+            "/I/home/ubuntu/llvm-project/llvm/include",
+            "-std=c++14",
+            "-fno-exceptions",
+            "-D_GNU_SOURCE",
+            "-D__STDC_CONSTANT_MACROS",
+            "-D__STDC_FORMAT_MACROS",
+            "-D__STDC_LIMIT_MACROS",
+            "-fno-rtti",
+            "-o",
+            "main.o",
+            "main.cpp"
+        ],
+
+        "directory": "/home/ubuntu/CLP",
+        "file": "../src/main.cpp"
+    }
+]
